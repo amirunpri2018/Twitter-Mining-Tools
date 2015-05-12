@@ -28,10 +28,10 @@ class TweetListener(StreamListener):
 def listenToTwitter(self, filters=None):
     
     # Credentials
-    self.consumer_key = "mTv3PyWHMPNdlqvSYM05rMjxl"
-    self.consumer_secret = "P7Sgr5rZt4V9VJImzvUy6qn4mELzzMfO0rH9ig6D3729oKIxyR"
-    self.access_token = "2890181881-L3Kgl5GMHpupldDQukq3OB1AAQSRs5CCbrautYz"
-    self.access_token_secret = "k12Dwju3eaNVaMKhx6ejJ69Noe1LemJbbJ11xPmeci0fx"
+    self.consumer_key = ""
+    self.consumer_secret = ""
+    self.access_token = ""
+    self.access_token_secret = ""
     self.auth = OAuthHandler(self.consumer_key, self.consumer_secret)
     self.auth.set_access_token(self.access_token, self.access_token_secret)
 
